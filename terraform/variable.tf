@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "ami" {
   description = "A imagem AMI para a instância EC2"
-  default     = "ami-053a45fff0a704a47" # Altere conforme necessário
+  default     = "ami-053a45fff0a704a47" 
 }
 
 variable "instance_name" {
@@ -20,5 +20,10 @@ variable "instance_name" {
 variable "vpc" {
     description = "O nome da VPC"
     default     = "vpcExampleSimple"
+  
+}
+variable "subnet" {
+    description = "O nome da Subnet"
+    default     = "subnetExampleSimple"
   
 }
