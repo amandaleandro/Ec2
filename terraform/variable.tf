@@ -10,10 +10,10 @@ variable "instance_type" {
 
 variable "ami" {
   description = "A imagem AMI para a instância EC2"
-  default     = "ami-0c55b159cbfafe1f0"
+  default     = "ami-053a45fff0a704a47 "
 }
 
 variable "instance_name" {
   description = "O nome da instância EC2"
-  default     = "ExampleInstance"
+  default     = "Ec2-Instance-ExampleSimple"
 }
